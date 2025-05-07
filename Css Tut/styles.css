@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+/* To style the heading */
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* TO style features */
+.features {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.feature {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* For the anchor button */
+.anchor-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.anchor-button:hover {
+  background-color: #0056b3;
+}
